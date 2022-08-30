@@ -1,0 +1,5 @@
+let sum = 0;
+for (let k = 2; k <= 30; k+=2) {
+    sum += k;
+}
+console.log(`The sum of even numbers 1~30 is = ${sum}.`)
